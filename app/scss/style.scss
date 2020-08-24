@@ -3,4 +3,87 @@
 @import "fonts";
 
 
-@import "media";
+
+header {
+
+    background-image: url(../images/header_bg.png);
+    width: 1600px;
+    height: 670px;
+
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+
+        .header__logo {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 130px;
+            height: 50px;
+            align-items: center;
+
+            .logo {
+                background-image: url(../images/tajem_logo.png);
+                /* Style for "Vector Sma" */
+                width: 44px;
+                height: 50px;
+
+            }
+
+            .title {
+
+                background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+                margin-left: 11px;
+                /* Style for "tajam" */
+                font-family: "roboto-thin";
+
+
+                background-clip: text;
+                color: transparent;
+
+
+                font-size: 30px;
+                font-weight: 400;
+            }
+        }
+
+        .menu {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+
+            .menu__item {
+                margin-top: 36px;
+                display: inline-block;
+
+                a {
+                    margin-left: 25px;
+                    color: white;
+                    font-family: "roboto-black";
+                    transition: 0.3s all;
+
+                
+
+
+                 
+
+                    font-size: 13px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+
+                    letter-spacing: 0.33px;
+                }
+                a:hover {
+                    color: #00e0d0;
+                }
+            
+            }
+        }
+    }
+
+}
+
+
+
+    // @import "media";
