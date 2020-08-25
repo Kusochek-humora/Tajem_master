@@ -68,6 +68,14 @@ li {
 	left: 48%;
 }
 
+.line:nth-last-of-type(2) {
+	left: 47.4%;
+	height: 2px;
+	background-color: #413d4b;
+	opacity: 0.3;
+margin-bottom: 48px;
+}
+
 .learn__more {
 	margin-top: 50px;
 	// margin-bottom: 126px;
