@@ -7,12 +7,23 @@
     font-family: "roboto";
     src: url(../fonts/roboto.ttf)
 }
-@font-face{
+
+@font-face {
     font-family: "Roboto-Bold";
-    src:url(../fonts/Roboto-Bold.ttf)
-  
+    src: url(../fonts/Roboto-Bold.ttf)
 }
-@font-face{
-    font-family:"roboto-black";
-    src:url(../fonts/Roboto-Bold.ttf)
+
+@font-face {
+    font-family: "roboto-black";
+    src: url(../fonts/Roboto-Bold.ttf)
+}
+
+@font-face {
+    font-family: "playfair display -black";
+    src: url(../fonts/playfair-display-black.ttf);
+}
+
+@font-face {
+    font-family: "Hammersmith One";
+    src: url(../fonts/HammersmithOne-Regular.ttf);
 }

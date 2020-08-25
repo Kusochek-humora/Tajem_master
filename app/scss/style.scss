@@ -63,10 +63,10 @@ header {
                     font-family: "roboto-black";
                     transition: 0.3s all;
 
-                
 
 
-                 
+
+
 
                     font-size: 13px;
                     font-weight: 400;
@@ -74,16 +74,113 @@ header {
 
                     letter-spacing: 0.33px;
                 }
+
                 a:hover {
                     color: #00e0d0;
                 }
-            
+
             }
         }
     }
 
+    .text {
+        text-align: center;
+
+
+
+        .text__title {
+            width: 100%;
+            height: 32px;
+            margin-top: 183px;
+            // text-align: center;
+            margin-bottom: 21px;
+
+
+
+            font-family: "playfair display -black";
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: 400;
+            /* Text style for "W, e Are A" */
+            letter-spacing: 0.32px;
+
+        }
+
+        .text__slider {
+            .slick-dots {
+                
+                position: fixed;
+                top: 79%;
+                left: 50.7%;
+            }
+
+            .slick-dots li {
+                margin-right: 5px;
+                display: inline-block;
+
+                button {
+                    display: none;
+                }
+
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+                border: 1px solid #c2c2c2;
+                background: transparent;
+                color: transparent
+            }
+
+
+
+            .slick-dots li:hover {
+                background-color: #00e0d0;
+                border: 1px solid #00e0d0;
+            }
+
+        }
+
+        .text__item {
+            margin-top: 30px;
+            display: inline-block;
+            width: 770px;
+
+            color: #ffffff;
+            font-family: "roboto";
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            /* Text style for "This is Ph" */
+            letter-spacing: 0.7px;
+        }
+
+
+    }
+
+    .learn__more {
+        margin-top: 50px;
+        // margin-bottom: 126px;
+        position: fixed;
+        left: 48.5%;
+        width: 120px;
+        height: 40px;
+        border: 1px solid #00e0d0;
+        padding-top: 12.5px;
+
+
+        a {
+            text-align: center;
+            width: 100%;
+            height: 10px;
+            color: #00e0d0;
+            font-family: "Hammersmith One";
+            font-size: 15px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
 }
 
 
 
-    // @import "media";
+
+@import "media";

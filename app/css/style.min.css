@@ -69,6 +69,15 @@ li {
   margin: 0 auto;
 }
 
+.line {
+  /* Style for "Separator" */
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0;
+  position: fixed;
+  left: 50.8%;
+}
+
 @font-face {
   font-family: "roboto-thin";
   src: url(../fonts/roboto_thin.ttf);
@@ -87,6 +96,16 @@ li {
 @font-face {
   font-family: "roboto-black";
   src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "playfair display -black";
+  src: url(../fonts/playfair-display-black.ttf);
+}
+
+@font-face {
+  font-family: "Hammersmith One";
+  src: url(../fonts/HammersmithOne-Regular.ttf);
 }
 
 header {
@@ -170,4 +189,93 @@ header .header__inner .menu .menu__item a {
 
 header .header__inner .menu .menu__item a:hover {
   color: #00e0d0;
+}
+
+header .text {
+  text-align: center;
+}
+
+header .text .text__title {
+  width: 100%;
+  height: 32px;
+  margin-top: 183px;
+  margin-bottom: 21px;
+  font-family: "playfair display -black";
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  /* Text style for "W, e Are A" */
+  letter-spacing: 0.32px;
+}
+
+header .text .text__slider .slick-dots {
+  position: fixed;
+  top: 79%;
+  left: 50.7%;
+}
+
+header .text .text__slider .slick-dots li {
+  margin-right: 5px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid #c2c2c2;
+  background: transparent;
+  color: transparent;
+}
+
+header .text .text__slider .slick-dots li button {
+  display: none;
+}
+
+header .text .text__slider .slick-dots li:hover {
+  background-color: #00e0d0;
+  border: 1px solid #00e0d0;
+}
+
+header .text .text__item {
+  margin-top: 30px;
+  display: inline-block;
+  width: 770px;
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  /* Text style for "This is Ph" */
+  letter-spacing: 0.7px;
+}
+
+header .learn__more {
+  margin-top: 50px;
+  position: fixed;
+  left: 48.5%;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #00e0d0;
+  padding-top: 12.5px;
+}
+
+header .learn__more a {
+  text-align: center;
+  width: 100%;
+  height: 10px;
+  color: #00e0d0;
+  font-family: "Hammersmith One";
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1920px) {
+  body {
+    zoom: 1.25;
+  }
+}
+
+@media (max-width: 1620px) {
+  body {
+    zoom: 1;
+  }
 }
