@@ -14,38 +14,7 @@ header {
         display: flex;
         justify-content: space-between;
 
-        .header__logo {
-            margin-top: 15px;
-            display: flex;
-            justify-content: space-between;
-            max-width: 130px;
-            height: 50px;
-            align-items: center;
 
-            .logo {
-                background-image: url(../images/tajem_logo.png);
-                /* Style for "Vector Sma" */
-                width: 44px;
-                height: 50px;
-
-            }
-
-            .title {
-
-                background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
-                margin-left: 11px;
-                /* Style for "tajam" */
-                font-family: "roboto-thin";
-
-
-                background-clip: text;
-                color: transparent;
-
-
-                font-size: 30px;
-                font-weight: 400;
-            }
-        }
 
         .menu {
             max-width: 100%;
@@ -278,7 +247,8 @@ header {
 }
 
 .expertise {
-margin-bottom: 68px;
+    margin-bottom: 68px;
+
     .expertise__title {
         text-align: center;
         /* Style for "EXPERTISE" */
@@ -307,93 +277,672 @@ margin-bottom: 68px;
         letter-spacing: 1.05px;
         margin-bottom: 18px;
     }
+
+    .expertise__inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .expertise__item {
+            width: 306.5px;
+            padding-top: 40px;
+
+            .expertise__item-logo {
+                margin-left: 128.25px;
+
+                margin-bottom: 35px;
+            }
+
+
+
+            .expertise__item-title {
+
+                text-align: center;
+                /* Style for "WEB DESIGN" */
+                width: 100%;
+                height: 10px;
+                color: #413d4b;
+                font-family: "roboto-black";
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                /* Text style for "W, EB DESI" */
+                letter-spacing: 0.7px;
+                margin-bottom: 25px;
+
+            }
+
+            .expertise__item-text {
+                text-align: center;
+                /* Style for "This is Ph" */
+                width: 255px;
+                margin-left: 22px;
+                opacity: 0.75;
+                color: #333333;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                /* Text style for "T, his is" */
+                letter-spacing: 0.7px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .expertise__item:nth-of-type(1) {
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            /* Style for "vr 1" */
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .expertise__item:nth-of-type(2) {
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            /* Style for "vr 1" */
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .expertise__item:nth-of-type(3) {
+            // border-right: 1px solid rgba(0, 0, 0, 0.2);
+            /* Style for "vr 1" */
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .expertise__item:nth-of-type(4) {
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            /* Style for "vr 1" */
+            // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .expertise__item:nth-of-type(5) {
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            /* Style for "vr 1" */
+            // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .expertise__item:nth-of-type(6) {
+            // border-right: 1px solid rgba(0, 0, 0, 0.2);
+            /* Style for "vr 1" */
+            // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    }
+
 }
 
-.expertise__inner {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.team {
+    background-image: url(../images/bg__team.png);
+    width: 1600px;
+    height: 712px;
+    margin-bottom: 70px;
 
-    .expertise__item {
-        width: 306.5px;
-        padding-top: 40px;
+    .team__title {
+        margin-top: 71px;
+        margin-bottom: 16px;
+        text-align: center;
+        /* Style for "MEET OUR A" */
+        width: 100%;
+        height: 16px;
+        color: #ffffff;
+        font-family: "playfair display -black";
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* Text style for "MEET OUR A" */
+        letter-spacing: 1.1px;
+    }
 
-        .expertise__item-logo {
-            margin-left: 128.25px;
-          
-            margin-bottom: 35px;
+    .team__text {
+        margin-bottom: 18px;
+        text-align: center;
+        /* Style for "Lorem ipsu" */
+        width: 100%;
+        height: 15px;
+        color: #f9f9f9;
+        font-family: "playfair display -black";
+        font-size: 14px;
+        font-weight: 400;
+        /* Text style for "Lorem ipsu" */
+        letter-spacing: 1.05px;
+
+    }
+
+    span {
+        display: block;
+        text-align: center;
+        /* Style for "Become par" */
+        width: 100%;
+        height: 14px;
+        color: #f3f3f3;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        /* Text style for "Become par" */
+        letter-spacing: 0.7px;
+    }
+
+    .learn__more {
+        position: relative;
+        left: 44.5%;
+    }
+
+    .team__inner {
+        display: flex;
+        justify-content: space-between;
+
+        .team__item {
+            height: 310px;
+            width: 221px;
+            border: 1px solid rgba($color: #e1e1e1, $alpha:0.5);
+            margin-bottom: 70px;
+
+            .team__item-logo {
+                background-image: url(../images/sry.jpg);
+                width: 220px;
+                height: 229px;
+            }
+
+            .team__item-title {
+                border-top: 1px solid rgba($color: #e1e1e1, $alpha:0.5);
+                padding-top: 20px;
+
+                text-align: center;
+                margin-bottom: 12px;
+                /* Style for "SEMF UCUK" */
+                width: 100%;
+                height: 10px;
+                color: #ffffff;
+                font-family: "roboto-black";
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                /* Text style for "S, EMF UCU" */
+                letter-spacing: 0.7px;
+            }
+
+            .team__item-role {
+                margin-top: 22px;
+                text-align: center;
+                /* Style for "CEO & FOUN" */
+                width: 100%;
+                height: 9px;
+                opacity: 0.7;
+                color: #fafafa;
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+
+
         }
+    }
+}
 
-      
+.gallery {
+    margin-bottom: 80px;
 
-        .expertise__item-title {
+    .gallery__inner {
 
-            text-align: center;
-            /* Style for "WEB DESIGN" */
+        margin-bottom: 71px;
+        display: flex;
+        justify-content: space-between;
+
+        .gallery__title {
+            /* Style for "OUR WORKS" */
             width: 100%;
-            height: 10px;
+            height: 16px;
             color: #413d4b;
-            font-family: "roboto-black";
-            font-size: 14px;
-            font-weight: 400;
+            font-family: "playfair display -black";
+            font-size: 22px;
+            font-weight: 700;
             text-transform: uppercase;
-            /* Text style for "W, EB DESI" */
-            letter-spacing: 0.7px;
-            margin-bottom: 25px;
-
+            /* Text style for "O, UR WORK" */
+            letter-spacing: 1.1px;
         }
 
-        .expertise__item-text {
-            text-align: center;
-            /* Style for "This is Ph" */
-            width: 255px;
-            margin-left: 22px;
-            opacity: 0.75;
-            color: #333333;
+        .gallery__link {
+            position: relative;
+        }
+
+        .gallery__link a {
+
+            /* Style for "See All Pr" */
+            white-space: pre;
+            max-width: 100%;
+            height: 14px;
+            color: #413d4b;
             font-family: Roboto;
             font-size: 14px;
             font-weight: 300;
-            line-height: 22px;
-            /* Text style for "T, his is" */
+            /* Text style for "See All Pr" */
             letter-spacing: 0.7px;
-            margin-bottom: 40px;
+        }
+
+        .gallery__link::after {
+            content: url(../images/right__link.png);
+            /* Style for "right154" */
+            /* Style for "right154" */
+            width: 8px;
+            height: 13px;
+            opacity: 0.7;
+            position: absolute;
+            left: 103%;
+            top: 7%;
+
+        }
+
+    }
+
+    .gallery__pos {
+        margin-bottom: 81px;
+padding-right: 0;
+        .gallery__item {
+            width: 253px;
+            margin-bottom: -5px;
+        }
+
+        display: flex;
+justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .learn__more {
+
+        position: relative;
+        left: 43.5%;
+    }
+}
+
+.test {
+    margin-bottom: 72px;
+    background-image: url(../images/bg__put.png);
+    width: 1600px;
+    height: 500px;
+
+    .test__kovichki {
+        margin-top: 70px;
+        text-align: center;
+
+        span {
+
+            width: 32px;
+            height: 26px;
+            /* Style for "“" */
+
+            opacity: 0.9;
+            color: #ffffff;
+            font-family: "playfair display -black";
+            font-size: 100px;
+            font-weight: 400;
+            line-height: 22px;
+            /* Text style for "“" */
+            letter-spacing: 3px;
         }
     }
 
-    .expertise__item:nth-of-type(1) {
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* Style for "vr 1" */
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    .test__text {
+        text-align: center;
+        /* Style for "This is Ph" */
+        width: 100%;
+        height: 95px;
+        opacity: 0.85;
+        color: #ffffff;
+        font-family: "playfair display -black";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "T, his is" */
+        letter-spacing: 0.4px;
+        margin-bottom: 52px;
     }
 
-    .expertise__item:nth-of-type(2) {
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* Style for "vr 1" */
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    .test__item {
+        text-align: center;
+
+        .test__title {
+            /* Style for "JANE GALAD" */
+            width: 100%;
+            height: 10px;
+            color: #ffffff;
+            font-family: "roboto-black";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: uppercase;
+            /* Text style for "J, ANE GAL" */
+            letter-spacing: 0.7px;
+            margin-bottom: 13px;
+        }
+
+        .test__role {
+            /* Style for "CEO TENGKU" */
+            width: 100%;
+            opacity: 0.7;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+
+        .test__logo {
+
+
+            background-image: url(../images/test__logo1.png);
+            /* Style for "PUT YOUR I" */
+            width: 70px;
+            height: 70px;
+            margin: 45px auto;
+        }
+
+        .test__slider {
+            background-position: top center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+
+
+
+        }
+
+
+
     }
 
-    .expertise__item:nth-of-type(3) {
-        // border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* Style for "vr 1" */
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    .slick-arrow {
+
+        height: 21px;
+        z-index: 200;
+        position: absolute;
+        font-size: 0;
+
+        outline: none;
+        border: none;
     }
 
-    .expertise__item:nth-of-type(4) {
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* Style for "vr 1" */
-        // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    button {
+        max-width: 9px !important;
     }
 
-    .expertise__item:nth-of-type(5) {
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* Style for "vr 1" */
-        // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    .slick-prev {
+
+
+        background: url(../images/back.png);
+        left: 41%;
+        top: 59%;
+
+
     }
 
-    .expertise__item:nth-of-type(6) {
-        // border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* Style for "vr 1" */
-        // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    .slick-next {
+
+        background-color: transparent;
+        background-image: url(../images/forward.svg);
+        top: 59%;
+        right: 41%;
+    }
+}
+
+.conform {
+    margin-bottom: 71px;
+
+    .conform__inner {
+        display: flex;
+        justify-content: space-between;
+
+        .pos {
+            margin-left: 100px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .pos1,
+        .pos2 {
+            margin-right: 80px;
+            flex-wrap: wrap;
+
+            img {
+                margin-bottom: 47px;
+            }
+
+        }
+
+        .conform__item {
+            .conform__title {
+                /* Style for "GIVE US A" */
+                width: 100%;
+                height: 16px;
+                color: #413d4b;
+                font-family: "Playfair Display";
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                /* Text style for "G, IVE US" */
+                letter-spacing: 1.1px;
+                margin-bottom: 35px;
+            }
+
+            #second {
+                margin-left: 100px;
+            }
+        }
+
+
+        form {
+            width: 500px;
+
+
+            input {
+
+                /* Style for "Name" */
+
+                /* Style for "Rectangle" */
+                width: 460px;
+                height: 45px;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                outline-color: none;
+                padding-left: 21px;
+                padding-top: 5px;
+                margin-bottom: 23px;
+            }
+
+            textarea {
+                /* Style for "Rectangle" */
+                width: 460px;
+                height: 200px;
+                border: 1px solid rgba($color: #000000, $alpha:0.2);
+                padding-left: 20px;
+                padding-top: 22px;
+                resize: none;
+
+            }
+
+            button {
+                margin-top: 31px;
+                background-color: transparent;
+                outline: none;
+                cursor: pointer;
+
+                span {
+                    text-align: center;
+                    width: 100%;
+                    height: 10px;
+                    color: #00e0d0;
+                    font-family: "Hammersmith One";
+                    font-size: 15px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+            }
+
+            textarea::placeholder,
+            input::placeholder {
+                /* Style for "Name" */
+                width: 100%;
+                height: 14px;
+                opacity: 0.5;
+                color: #413d4b;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 300;
+                /* Text style for "Name" */
+                letter-spacing: 0.7px;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 1600px;
+    height: 400px;
+    background-image: url(../images/bg__footer.png);
+
+    .footer__inner {
+
+        display: flex;
+        justify-content: space-between;
+
+        .header__logo {
+            margin-top: 75px;
+        }
+
+        .footer__item {
+            margin-right: 36px;
+            width: 291px;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            /* Text style for "lorem quis" */
+            letter-spacing: 0.35px;
+
+            form {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 39px;
+            }
+
+            img {
+                margin-right: 4px;
+                margin-bottom: 70px;
+            }
+
+            .name_maket {
+                padding-left: 67px;
+            }
+
+            input {
+                /* Style for "Rectangle" */
+                width: 211px;
+                height: 45px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                background-color: transparent;
+                padding-left: 13.5px;
+                margin-right: 10px;
+            }
+
+            input::placeholder {
+                /* Style for "Subscribe" */
+                width: 100%;
+                opacity: 0.75;
+                color: #ffffff;
+                font-family: "roboto";
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 26px;
+                /* Text style for "Subscribe" */
+                letter-spacing: 0.7px;
+            }
+
+            button {
+                /* Style for "Rectangle" */
+                padding-top: 10px;
+                outline: none;
+                width: 70px;
+                height: 45px;
+                border: 1px solid #ffffff;
+                background-color: #ffffff;
+                opacity: 0.5;
+            }
+
+            .footer__title {
+                margin-bottom: 42px;
+                margin-top: 90px;
+            }
+
+            .map::before {
+                left: -24px;
+                top: 6px;
+                position: absolute;
+                content: url(../images/big104.png);
+            }
+
+            .map {
+                position: relative;
+                left: 16px;
+            }
+
+            .tel::before {
+                left: -24px;
+                top: 6px;
+                position: absolute;
+                content: url(../images/phone351.png);
+            }
+
+            .tel {
+                margin-top: 27px;
+                position: relative;
+                left: 16px;
+            }
+
+            .map,
+            .tel {
+
+                color: #ffffff;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 26px;
+
+                /* Text style for "H, ELP" */
+                letter-spacing: 0.35px;
+                margin-right: 16px;
+
+
+            }
+
+            .nav2 {
+                margin-top: 82px;
+                width: 291px;
+
+                li {
+                    display: inline-block;
+
+                    a {
+                        color: #ffffff;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        text-transform: uppercase;
+                        /* Text style for "H, ELP" */
+                        letter-spacing: 0.35px;
+                        margin-right: 16px;
+
+                    }
+                }
+            }
+
+            .footer__text {
+                margin-top: 37px;
+                text-align: left;
+            }
+        }
     }
 }
 

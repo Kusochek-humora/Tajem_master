@@ -19,6 +19,38 @@ body {
 	font-weight: 400;
 	font-size: 12px;
 	overflow-x: hidden;
+	.header__logo {
+		margin-top: 15px;
+		display: flex;
+		justify-content: space-between;
+		max-width: 130px;
+		height: 50px;
+		align-items: center;
+
+		.logo {
+			background-image: url(../images/tajem_logo.png);
+			/* Style for "Vector Sma" */
+			width: 44px;
+			height: 50px;
+
+		}
+
+		.title {
+
+			background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+			margin-left: 11px;
+			/* Style for "tajam" */
+			font-family: "roboto-thin";
+
+
+			background-clip: text;
+			color: transparent;
+
+
+			font-size: 30px;
+			font-weight: 400;
+		}
+	}
 }
 
 a {
@@ -59,7 +91,7 @@ li {
 	margin: 0 auto;
 }
 
-.line {
+.line1 {
 	/* Style for "Separator" */
 	width: 50px;
 	height: 1px;
@@ -68,13 +100,29 @@ li {
 	left: 48%;
 }
 
-.line:nth-last-of-type(2) {
+.line2 {
+	position: relative;
+	width: 50px;
 	left: 47.4%;
 	height: 2px;
 	background-color: #413d4b;
 	opacity: 0.3;
-margin-bottom: 48px;
+	margin-bottom: 48px;
 }
+
+.line3 {
+	position: relative;
+	left: 47%;
+	/* Style for "Separator" */
+	width: 50px;
+	height: 2px;
+	opacity: 0.2;
+	background-color: #ffffff;
+	margin-bottom: 47px;
+
+}
+
+
 
 .learn__more {
 	margin-top: 50px;
@@ -95,4 +143,6 @@ margin-bottom: 48px;
 		font-weight: 400;
 		text-transform: uppercase;
 	}
+
+
 }
