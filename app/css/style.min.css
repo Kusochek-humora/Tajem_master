@@ -17,6 +17,8 @@ body {
 }
 
 body {
+  padding: 0;
+  margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -315,6 +317,7 @@ header .learn__more a {
 
 .story {
   margin-top: 71px;
+  width: 1600px;
 }
 
 .story .story__inner {
@@ -368,15 +371,18 @@ header .learn__more a {
 .video {
   margin-top: 70px;
   background-image: url(../images/video_bg.png);
-  width: 100%;
+  width: 1600px;
   height: 550px;
   margin-bottom: 72px;
 }
 
+.video .video__inner {
+  padding-top: 201px;
+}
+
 .video .video__inner .video__item {
-  position: relative;
-  top: 200px;
-  left: 400px;
+  width: 159px;
+  margin: 0 auto;
 }
 
 .video .video__inner .video__item .play {
@@ -401,6 +407,7 @@ header .learn__more a {
 
 .expertise {
   margin-bottom: 68px;
+  width: 1600px;
 }
 
 .expertise .expertise__title {
@@ -449,7 +456,12 @@ header .learn__more a {
 }
 
 .expertise .expertise__inner .expertise__item .expertise__item-logo {
-  margin-left: 128.25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 35px;
 }
 
@@ -997,6 +1009,10 @@ header .learn__more a {
 
 .footer .footer__inner .header__logo {
   margin-top: 75px;
+}
+
+.footer .footer__inner .footer__social {
+  text-align: center;
 }
 
 .footer .footer__inner .footer__item {
