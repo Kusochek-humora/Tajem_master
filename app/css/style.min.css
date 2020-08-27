@@ -16,6 +16,14 @@ body {
   max-height: 100%;
 }
 
+section, footer, header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -189,7 +197,7 @@ li {
 
 header {
   background-image: url(../images/header_bg.png);
-  width: 1600px;
+  width: 100%;
   height: 670px;
 }
 
@@ -317,7 +325,7 @@ header .learn__more a {
 
 .story {
   margin-top: 71px;
-  width: 1600px;
+  width: 100%;
 }
 
 .story .story__inner {
@@ -371,7 +379,7 @@ header .learn__more a {
 .video {
   margin-top: 70px;
   background-image: url(../images/video_bg.png);
-  width: 1600px;
+  width: 100%;
   height: 550px;
   margin-bottom: 72px;
 }
@@ -407,7 +415,7 @@ header .learn__more a {
 
 .expertise {
   margin-bottom: 68px;
-  width: 1600px;
+  width: 100%;
 }
 
 .expertise .expertise__title {
@@ -529,7 +537,7 @@ header .learn__more a {
 
 .team {
   background-image: url(../images/bg__team.png);
-  width: 1600px;
+  width: 100%;
   height: 712px;
   margin-bottom: 70px;
 }
@@ -638,6 +646,8 @@ header .learn__more a {
 
 .gallery {
   margin-bottom: 80px;
+  width: 100%;
+  background-position: center;
 }
 
 .gallery .gallery__inner {
@@ -718,7 +728,7 @@ header .learn__more a {
 .test {
   margin-bottom: 72px;
   background-image: url(../images/bg__put.png);
-  width: 1600px;
+  width: 100%;
   height: 500px;
   position: relative;
 }
@@ -831,6 +841,7 @@ header .learn__more a {
 
 .conform {
   margin-bottom: 71px;
+  width: 100%;
 }
 
 .conform .conform__inner {
@@ -993,7 +1004,6 @@ header .learn__more a {
 }
 
 .footer {
-  width: 1600px;
   height: 400px;
   background-image: url(../images/bg__footer.png);
 }
@@ -1198,16 +1208,4 @@ header .learn__more a {
 .footer .footer__inner .footer__item .footer__text {
   margin-top: 37px;
   text-align: left;
-}
-
-@media (max-width: 1920px) {
-  body {
-    zoom: 1.25;
-  }
-}
-
-@media (max-width: 1620px) {
-  body {
-    zoom: 1;
-  }
 }

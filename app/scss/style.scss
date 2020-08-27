@@ -5,11 +5,11 @@
 
 
 header {
-
+  
     background-image: url(../images/header_bg.png);
-    width: 1600px;
+    width: 100%;
     height: 670px;
-
+  
     .header__inner {
         display: flex;
         justify-content: space-between;
@@ -153,8 +153,8 @@ header {
 
 .story {
     margin-top: 71px;
-    width: 1600px;
-
+    width: 100%;
+   
     .story__inner {
         display: flex;
         justify-content: space-between;
@@ -208,7 +208,7 @@ header {
 .video {
     margin-top: 70px;
     background-image: url(../images/video_bg.png);
-    width: 1600px;
+    width: 100%;
     height: 550px;
     margin-bottom: 72px;
 
@@ -251,8 +251,7 @@ header {
 
 .expertise {
     margin-bottom: 68px;
-    width: 1600px;
-
+    width: 100%;
     .expertise__title {
         text-align: center;
         /* Style for "EXPERTISE" */
@@ -375,7 +374,7 @@ header {
 
 .team {
     background-image: url(../images/bg__team.png);
-    width: 1600px;
+    width: 100%;
     height: 712px;
     margin-bottom: 70px;
 
@@ -484,6 +483,8 @@ header {
 
 .gallery {
     margin-bottom: 80px;
+    width: 100%;
+    background-position: center;
 
     .gallery__inner {
 
@@ -559,9 +560,10 @@ header {
 }
 
 .test {
+
     margin-bottom: 72px;
     background-image: url(../images/bg__put.png);
-    width: 1600px;
+    width: 100%;
     height: 500px;
 
     .test__kovichki {
@@ -694,6 +696,7 @@ header {
 
 .conform {
     margin-bottom: 71px;
+    width: 100%;
 
     .conform__inner {
         display: flex;
@@ -803,7 +806,7 @@ header {
 }
 
 .footer {
-    width: 1600px;
+    
     height: 400px;
     background-image: url(../images/bg__footer.png);
 
