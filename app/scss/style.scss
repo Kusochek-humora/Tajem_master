@@ -7,8 +7,12 @@
 header {
 
     background-image: url(../images/header_bg.png);
-    width: 100%;
-    height: 670px;
+
+    height: auto;
+
+    .learn__more {
+        margin-bottom: 71px;
+    }
 
     .header__inner {
         display: flex;
@@ -76,13 +80,11 @@ header {
         }
 
         .text__slider {
-            position: relative;
 
             .slick-dots {
 
-                position: absolute;
-                top: 245%;
-                left: 48%;
+                margin: 0 auto;
+                margin-bottom: 50px;
             }
 
             .slick-dots li {
@@ -147,6 +149,7 @@ header {
 .story {
     margin-top: 71px;
     width: 100%;
+    height: auto;
 
     .story__inner {
         display: flex;
@@ -248,6 +251,7 @@ header {
 .expertise {
     margin-bottom: 68px;
     width: 100%;
+    height: auto;
 
     .expertise__title {
         text-align: center;
@@ -278,7 +282,8 @@ header {
         margin-bottom: 18px;
     }
 
-    .expertise__inner {
+    .expertise__inner,
+    .expertise__inner2 {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -286,6 +291,7 @@ header {
         .expertise__item {
             width: 306.5px;
             padding-top: 40px;
+            margin: 0 auto;
 
             .expertise__item-logo {
                 display: flex;
@@ -317,7 +323,7 @@ header {
                 text-align: center;
                 /* Style for "This is Ph" */
                 width: 255px;
-                margin-left: 22px;
+                margin: 0 auto;
                 opacity: 0.75;
                 color: #333333;
                 font-family: Roboto;
@@ -372,7 +378,8 @@ header {
 .team {
     background-image: url(../images/bg__team.png);
     width: 100%;
-    height: 712px;
+
+    height: auto;
     margin-bottom: 70px;
 
     .team__title {
@@ -404,6 +411,10 @@ header {
         /* Text style for "Lorem ipsu" */
         letter-spacing: 1.05px;
 
+    }
+
+    .learn__more {
+        margin-bottom: 70px;
     }
 
     span {
@@ -480,6 +491,7 @@ header {
     margin-bottom: 80px;
     width: 100%;
     background-position: center;
+    height: auto;
 
     .gallery__inner {
 
@@ -506,6 +518,7 @@ header {
 
         .gallery__link a {
 
+            padding-top: 7px;
             /* Style for "See All Pr" */
             white-space: pre;
             max-width: 100%;
@@ -527,7 +540,7 @@ header {
             opacity: 0.7;
             position: absolute;
             left: 103%;
-            top: 7%;
+            top: 33%;
 
         }
 
@@ -538,6 +551,7 @@ header {
         padding-right: 0;
 
         .gallery__item {
+            margin: 0 auto;
             width: 266px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin-bottom: 10px;
@@ -559,7 +573,8 @@ header {
     margin-bottom: 72px;
     background-image: url(../images/bg__put.png);
     width: 100%;
-    height: 500px;
+
+    height: auto;
 
     .test__kovichki {
         margin-top: 70px;
@@ -696,9 +711,11 @@ header {
     .conform__inner {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .pos {
-            margin-left: 100px;
+            width: 400px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
 
@@ -717,6 +734,7 @@ header {
 
         .conform__item {
             .conform__title {
+               
                 /* Style for "GIVE US A" */
                 width: 100%;
                 height: 16px;
@@ -730,14 +748,14 @@ header {
                 margin-bottom: 35px;
             }
 
-            #second {
-                margin-left: 100px;
-            }
+            // #second {
+            //     margin: 35px auto 35px;
+            // }
         }
 
 
         form {
-            width: 500px;
+            width: 400px;
 
 
             input {
@@ -745,7 +763,8 @@ header {
                 /* Style for "Name" */
 
                 /* Style for "Rectangle" */
-                width: 460px;
+
+                width: 100%;
                 height: 45px;
                 border: 1px solid rgba(0, 0, 0, 0.2);
                 outline-color: none;
@@ -756,7 +775,8 @@ header {
 
             textarea {
                 /* Style for "Rectangle" */
-                width: 460px;
+
+                width: 100%;
                 height: 200px;
                 border: 1px solid rgba($color: #000000, $alpha:0.2);
                 padding-left: 20px;
@@ -765,11 +785,16 @@ header {
 
             }
 
+            .learn__more {
+                padding-top: 7.5px;
+            }
+
             button {
                 margin-top: 31px;
                 background-color: transparent;
                 outline: none;
                 cursor: pointer;
+
 
                 span {
                     text-align: center;
@@ -802,13 +827,60 @@ header {
 
 .footer {
 
-    height: 400px;
+    height: auto;
     background-image: url(../images/bg__footer.png);
+
+    .footer__item2 {
+
+        span {
+            margin: 0 auto;
+            width: 293px;
+        }
+
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        ;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        /* Text style for "lorem quis" */
+        letter-spacing: 0.35px;
+
+        .nav2 {
+            margin: 0 auto;
+            width: 291px;
+
+            li {
+                display: inline-block;
+
+                a {
+
+
+                    color: #ffffff;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    /* Text style for "H, ELP" */
+                    letter-spacing: 0.35px;
+                    margin-right: 16px;
+
+                }
+            }
+        }
+
+    }
 
     .footer__inner {
 
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .header__logo {
             margin-top: 75px;
@@ -816,10 +888,14 @@ header {
 
         .footer__social {
             text-align: center;
+
+            a {
+                height: 35px;
+            }
         }
 
         .footer__item {
-            margin-right: 36px;
+            margin: 0 auto;
             width: 291px;
             color: #ffffff;
             font-family: Roboto;
@@ -828,6 +904,8 @@ header {
             line-height: 26px;
             /* Text style for "lorem quis" */
             letter-spacing: 0.35px;
+
+
 
             form {
                 display: flex;
@@ -876,6 +954,7 @@ header {
                 border: 1px solid #ffffff;
                 background-color: #ffffff;
                 opacity: 0.5;
+                cursor: pointer;
             }
 
             .footer__title {
@@ -910,7 +989,7 @@ header {
 
             .map,
             .tel {
-
+                margin-left: 10px;
                 color: #ffffff;
                 font-family: Roboto;
                 font-size: 14px;
@@ -924,27 +1003,6 @@ header {
 
             }
 
-            .nav2 {
-                margin-top: 82px;
-                width: 291px;
-
-                li {
-                    display: inline-block;
-
-                    a {
-                        color: #ffffff;
-                        font-family: Roboto;
-                        font-size: 14px;
-                        font-weight: 400;
-                        line-height: 26px;
-                        text-transform: uppercase;
-                        /* Text style for "H, ELP" */
-                        letter-spacing: 0.35px;
-                        margin-right: 16px;
-
-                    }
-                }
-            }
 
             .footer__text {
                 margin-top: 37px;

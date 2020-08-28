@@ -1,0 +1,40 @@
+@media(max-width:630px) {
+    .expertise__inner {
+        display: none !important;
+    }
+
+    .expertise__inner2 {
+        display: block !important;
+
+        .slick-dots {
+
+            margin: 0 auto ;
+            margin-bottom: 50px;
+            width: 90px;
+        }
+
+        .slick-dots li {
+            margin-right: 5px;
+            display: inline-block;
+
+            button {
+                display: none;
+            }
+
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            border: 1px solid #c2c2c2;
+            background: transparent;
+            color: transparent
+        }
+
+
+
+        .slick-dots li:hover {
+            background-color: #00e0d0;
+            border: 1px solid #00e0d0;
+        }
+
+    }
+}

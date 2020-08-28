@@ -7,7 +7,14 @@ $('.text__slider').slick({
 $('.test__slider').slick({
   arrows: true,
   dots: false
-  
+
+
+});
+
+$('.expertise__inner2').slick({
+  arrows: false,
+  dots: true
+
 
 });
 
