@@ -161,3 +161,108 @@ li {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.burger__menu {
+	margin-right: 40px;
+	display: none;
+	margin-top: 30px;
+
+	ul {
+		position: relative;
+	}
+
+	.burger__item li {
+		position: absolute;
+		margin-bottom: 5px;
+		width: 32px;
+		height: 4px;
+		background-color: white;
+
+	}
+
+	.burger1 {
+
+	}
+
+	.burger2 {
+		max-width: 34px;
+		top: 8px;
+
+	}
+
+	.burger3 {
+
+		top: 16px;
+	}
+}
+
+.menu2.active {
+	display: flex !important;
+
+	height: 100% !important;
+
+}
+// .burger3,.burger2.burger1{
+// 	transition: 0.2s all;
+// }
+ .burger__menu:hover{
+	.burger1,.burger2,.burger3{
+		background-color: #00e0d0;
+	}
+}
+
+.burger__menu.active {
+	.burger1 {
+		
+		top: 7px;
+		transform: rotate(45deg);
+	}
+
+	.burger2 {
+
+		max-width: 0;
+	}
+
+	.burger3 {
+
+		bottom: 7px;
+		top: 7px;
+		transform: rotate(-45deg);
+	}
+}
